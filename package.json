@@ -3,6 +3,7 @@
   "version": "3.2.10",
   "main": "dist/es5/jquery.flot.js",
   "scripts": {
+    "example": "node index.js",
     "test": "node node_modules/karma/bin/karma start --single-run --no-auto-watch --concurrency=1 --stopOnEsLintError",
     "karma": "node node_modules/karma/bin/karma start --no-auto-watch",
     "coverage": "node node_modules/karma/bin/karma start --single-run --coverage --no-auto-watch --concurrency=1",
@@ -48,5 +49,8 @@
     "tmp": "0.0.33",
     "webcharts-development-settings": "^1.0.9"
   },
-  "dependencies": {}
+  "dependencies": {
+    "connect": "^3.7.0",
+    "serve-static": "^1.14.1"
+  }
 }
